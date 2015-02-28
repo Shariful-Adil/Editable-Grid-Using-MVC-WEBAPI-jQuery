@@ -1,75 +1,78 @@
-﻿
+﻿<div class="wrapper pl">
 
-<div class="wrapper pl">
-  
-   
+
     <div class="widget mb20">
         <div class="whead">
-            <h6>List Of Employees</h6>
+            <h6>List Of Students</h6>
             <div class="clear"></div>
         </div>
-		
-	
- <table id="tblGrid" class="ASPGrid">			
-			<thead>
-				<tr>
-					<th style="">Name</th>
-					<th style="">Age</th>
-					
-                    <th style="">Designation</th>
-					<th style="">Date</th>
+
+
+        <table id="tblGrid" class="ASPGrid">
+            <thead>
+                <tr>
+                    <th style="">Name</th>
+                    <th style="">EMAIL</th>
+                    <th style="">Department</th>
+                    <th style="">Date</th>
                     <th style=""></th>
-				</tr>
-			</thead>
-			<tbody>
-                <tr class="entryForm1" hidden>
-					<td  style=""><input type="text"  name="name"/></td>
-					<td  style=""><input type="text" class="numericTextbox" name="age" /></td>
-				<td >
-                    <select>
-                        
-                        <option>Development</option>
-                        <option>Hr</option>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="entryForm" hidden>
+                    <td style="">
+                        <input type="text" name="name" /></td>
+                    <td style="">
+                        <input type="text" name="Email" /></td>
+                    <td>
+                        <select>
 
-                    </select>
-				</td>
-                    <td   style=""><input type="text" class="datepicker" name="date" /></td>
-                    <td  style="">  <img src="~/images/icons/Save.png" class='btnSave' alt="Edit" style="border-width: 0px;" />
-                  <img src="~/images/icons/delete.png" alt="Delete" style="border-width: 0px;" class='btnDelete' /></td>
-				
-				</tr>
-				<tr class="entryForm1">
-					<td  style=""><input type="text" name="name" /></td>
-					<td  style=""><input type="text" class="numericTextbox" name="age" /></td>
-				<td >
-                    <select>
-                        
-                        <option>Development</option>
-                        <option>Hr</option>
-                    </select>
-				</td>
-                    <td id="date"  style=""><input type="text" class="datepicker" name="date" /></td>
-                    <td  style="">  <img src="~/images/icons/save.png" class='btnSave' alt="Edit" style="border-width: 0px;" />
-                  <img src="~/images/icons/delete.png" alt="Delete" style="border-width: 0px;" class='btnDelete' /></td>
+                            <option>ICT</option>
+                            <option>CSE</option>
+                            <option>Textile</option>
+                        </select>
+                    </td>
+                    <td style="">
+                        <input type="text" class="datepicker" name="date" /></td>
+                    <td style="">
+                        <img src="~/images/icons/Save.png" class='btnSave' alt="Edit" style="border-width: 0px;" />
+                        <img src="~/images/icons/delete.png" alt="Delete" style="border-width: 0px;" class='btnDelete' /></td>
 
-				</tr>
-			</tbody>
-		</table>
-    
-       
-        
+                </tr>
+                <tr class="entryForm">
+                    <td style="">
+                        <input type="text" name="name" /></td>
+                    <td style="">
+                        <input type="text" name="Email" /></td>
+                    <td>
+                        <select>
+
+                            <option>ICT</option>
+                            <option>CSE</option>
+                            <option>Textile</option>
+                        </select>
+                    </td>
+                    <td id="date" style="">
+                        <input type="text" class="datepicker" name="date" /></td>
+                    <td style="">
+                        <img src="~/images/icons/save.png" class='btnSave' alt="Edit" style="border-width: 0px;" />
+                        <img src="~/images/icons/delete.png" alt="Delete" style="border-width: 0px;" class='btnDelete' /></td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
+
         <input type="button" class="btn btn-success ml10 m10" value="Add New" id="btnAdd" />
-        <input type="button" class="btn btn-success ml10 m10" value="Save" id="btnSaveAll" />
+        <input type="button" class="btn btn-success m10" value="Save All" id="btnSaveAll" />
+    </div>
+
+
 </div>
 
-     
-    </div>
-     
-       
-        <div class="clear"></div>
-                        
-  <script src="~/Scripts/customgrid.js"></script>             
 
-<script src="~/Scripts/Controls/jquery-ui.min.js" type="text/javascript"></script>
-<script src="~/Scripts/Controls/date.js" type="text/javascript"></script>
+<div class="clear"></div>
+
+
 

@@ -349,7 +349,7 @@ padding-top:0 !important;
          
          
   /*entry form styling goes here-------------*/       
-   .entryForm1
+   .entryForm
   {
     margin:0 auto;
     padding: 20px 0;
@@ -358,7 +358,7 @@ padding-top:0 !important;
   {
     padding:20px 0;
       }  
-  .entryForm1 li 
+  .entryForm li 
   {
     padding:0 20% 20px 20%;
     border-bottom:1px solid #ddd;   
@@ -370,23 +370,23 @@ padding-top:0 !important;
     border-bottom:1px solid #ddd;   
     margin-bottom:20px; 
     }    
-   .entryForm1 li:last-child, .entryForm2 li:last-child 
+   .entryForm li:last-child, .entryForm2 li:last-child 
   {
       border-bottom:none;
       padding-bottom:0 !important;
       margin-bottom:0px;    
       }    
-  .entryForm1 label
+  .entryForm label
   {
     display:block;
     line-height: normal;
       }
          
-   .entryForm1 li:last-child
+   .entryForm li:last-child
   {
       margin-bottom: 0 !important;
       }         
- .entryForm1 input[type=text],.entryForm2 input[type=text]
+ .entryForm input[type=text],.entryForm2 input[type=text]
  {
     background: none repeat scroll 0 0 #FDFDFD;
     border: 1px solid #D7D7D7;
@@ -402,11 +402,11 @@ padding-top:0 !important;
     display:inline-block;
     width:120px;
       }    
-    .entryForm1 label, .entryForm2 label
+    .entryForm label, .entryForm2 label
   {
       font-weight:bold;
          }    
-     .entryForm1 input:focus, .entryForm2 input:focus
+     .entryForm input:focus, .entryForm2 input:focus
   {
       border:1px solid #bbb;
          }  
