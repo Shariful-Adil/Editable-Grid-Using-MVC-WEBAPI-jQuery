@@ -1,0 +1,8 @@
+*{font-family:"Century Gothic";}
+
+#tblCadastro{width:100%;}
+#tblCadastro thead tr{background:grey; color:White;}
+#tblCadastro tr td, #tblCadastro tr th{text-align:left;
+						 			   margin: 10px}
+#tblCadastro tbody input{width:100%;}
+#tblCadastro img{cursor: pointer;}
